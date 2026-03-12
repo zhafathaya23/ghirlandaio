@@ -26,7 +26,7 @@ Pertanyaan dari Pak Al yaitu **Nabi Sulaiman bisa memindahkan istana dengan bant
 
 Pertanyaan dari presentator bahwa **bagaimana hubungan kemajuan teknologi dan perubahan nilai kemanusiaan**: Hubungannya adalah dengan kemajuan teknologi yang semakin pesat, manusia akan menanyakan tentang nilai mereka, tentang nilai kemanusiaan mereka, "apakah manusia akan digantikan? tidak berguna? akhir bagi umat manusia?" di mana mereka sudah tidak ada nilainya, mereka akan digantikan oleh robot, *Artificial Intelegence* yang lebih menurut, lebih giat, lebih jujur daripada manusia, peperangan pun bisa dilakukan oleh *Artificial Intelegence* itu. Bahkan cara orang berpikir pun bisa diubah nilainya dengan teknologi, seperti pada TikTok memberitahu bahwa manusia yang baik adalah manusia yang ..., maka nilai manusia itu akan berubah tergantung alur yang diberikan.
 
-** Penutup
+## Penutup
 Hubungan antara sains dan agama tidak selamanya tentang peperangan atau pertentangan. Keduanya memiliki peran masing-masing di mana sains tidak bisa hanya bergantung pada pemikiran dan inovasi, sebaliknya agama tidak sepenuhnya harus mengandalkan pedoman, masing-masing dari mereka bisa saling melengkapi untuk mengerti bagaimana dunia seharusnya bekerja, manusia butuh berkembang tidak hanya dengan moral atau pengetahuan saja.
 
 Pada era-era terdahulu terlihat kalau tanpa adanya sains dan hanya mengandalkan kepercayaan pada naskah kuno bisa mengarahkan manusia ke zaman yang gelap, dengan adanya sains, lebih mengarahkan manusia yang selalu menyalahkan segalanya pada Tuhan, menjadi mandiri, bangkit, dan mencari solusi lewat materi.
