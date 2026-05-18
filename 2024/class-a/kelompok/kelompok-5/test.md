@@ -83,4 +83,18 @@ install efibootmgr
 ```
 pacman -S grub efibootmgr
 ```
-
+install grub package
+```
+grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB
+```
+```
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+```
+Use the ```grub-mkconfig tool``` to generate ```/boot/grub/grub.cfg```:
+```
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+reboor
+```
+umount -R /mnt
+```
