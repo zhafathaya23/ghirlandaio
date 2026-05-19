@@ -23,28 +23,27 @@
 
 ---
 
-#KATA PENGANTAR
+# KATA PENGANTAR
 
 Segala puji dan syukur kami panjatkan kepada Tuhan yang Maha Esa karena berkat karunia-Nya kami mampu menyelesaikan tugas makalah ini dengan baik dan tepat waktu. Makalah yang berjudul “INSTALLASI DEKSTOP ARCH LINUX” disusun guna memenuhi tugas Bapak Al Muhdil Karim, S. IP, M. Hum. Pada mata kuliah Perpustakaan dan Arsip Digital.
 Kami menyadari bahwa dalam penulisan makalah ini tidak terlepas dari bantuan banyak pihak, sehingga makalah ini dapat terselesaikan. Kami juga menyadari bahwa makalah ini masih memerlukan penyempurnaan. Oleh karena itu, kami menerima segala bentuk kritik dan saran yang membangun dari berbagai pihak. Apabila terdapat banyak kesalahan pada makalah ini, kami memohon maaf. Demikian yang dapat kami sampaikan. Akhir kata, semoga makalah ini dapat bermanfaat.
 
-#BAB I 
+# BAB I 
+# PENDAHULUAN
 
-#PENDAHULUAN
-
-##1.1 LATAR BELAKANG
+## 1.1 LATAR BELAKANG
 Arch Linux merupakan distribusi Linux yang dikembangkan secara independen dan bersandar pada arsitektur CPU x86-64 yang umum digunakan. Umumnya, instalasi yang digunakan adalah sistem paling minimal, lalu dikonfigurasikan oleh pengguna sehingga hanya fungsi penting saja yang ada, menurut masing-masing pengguna. Dengan kelima prinsipnya, yaitu kesederhanaan, modernitas, pragmatisme, terpusat pada pengguna, dan keserbagunaan, arch linux menciptakan modifikasi yang minimalis sehingga tidak ada tambahan yang tidak perlu, menjaga versi piranti lunak terbaru tetap stabil, namun harus terhindar dari cacat sistemik, keputusan dibuat berdasarkan kasus-kasus yang dialami oleh para pembuat dan pengurus piranti lunak sebagai panduan, senantiasa selalu menjadi ramah pengguna dan mengisi kebutuhan bagi siapapun yang berkontribusi, serta merupakan distribusi serbaguna, pengguna dapat dengan mudahnya membuat dan mengurus repositorinya sendiri. 
 
 Dekstop Environment (DE) adalah implementasi metafora desktop yang terbuat dari sekumpulan program, yang berbagi Graphical User Interface (GUI) yang sama. Dekstop Environment menggabungkan berbagai komponen untuk menyediakan elemen antarmuka pengguna grafis umum seperti ikon, bilah alat, wallpaper, dan widget desktop. Selain itu, sebagian besar lingkungan desktop menyertakan serangkaian aplikasi dan utilitas terintegrasi. Dalam installasinya terdapat beberapa komponen, seperti Network Manager, KDE Plasma, Pipewire, Dolphin, dan Kitty. 
 
-##1.2 RUMUSAN MASALAH
-Bagaimana proses intalasi NetworkManager pada Arch Linux?
+## 1.2 RUMUSAN MASALAH
+1. Bagaimana proses intalasi NetworkManager pada Arch Linux?
 Bagaimana proses instalasi KDE Plasma pada Arch Linux?
 Bagaimana proses intalasi Pipewire pada Arch Linux?
 Bagaimana proses intalasi Dolphin pada Arch Linux?
 Bagaimana proses intalasi Kitty pada Arch Linux?
 
-##1.3 Tujuan
+## 1.3 Tujuan
 Untuk mengetahui proses instalasi NetworkManager pada Arch Linux.
 Untuk mengetahui proses instalasi KDE Plasma pada Arch Linux.
 Untuk mengetahui proses instalasi Pipewire pada Arch Linux.
