@@ -274,7 +274,7 @@ Gunakan __key__ anak panah kanan & kiri untuk __bernavigasi__ (bergerak ke kanan
 Masukkan ukuran 512M untuk partisi __EFI__, 4G untuk partisi __Swap__, dan sisa ruang yang tersedia untuk partisi __Root__. 
 
 __Untuk Contoh:__
--  jika total ruang adalah 50GB dan setelah dipartisi tersisa 44,3G, maka masukkan nilai 44,5G untuk partisi __Root__.
+-  jika total ruang adalah 50GB dan setelah dipartisi tersisa 44,3G, maka masukkan nilai 44,3G untuk partisi __Root__.
 
 ---
 <img width="1599" height="899" alt="WhatsApp Image 2026-05-14 at 9 53 02 PM" src="https://github.com/user-attachments/assets/d06d0474-f66a-4787-8d0b-6ac699c4293f" />
