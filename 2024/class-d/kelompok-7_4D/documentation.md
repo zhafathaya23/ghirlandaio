@@ -140,6 +140,35 @@ cryptsetup luksOpen /dev/proc/ikhsan [nama device]
 mkfs.ext4 /dev/mapper/[nama device]
 ```
 
+## Mounting
+```
+mount /dev/proc/root /mnt
+```
+
+```
+mount --mkdir -o uid=0,gid=0,dmask=0077,fmask=0077 /dev/paritition /mnt/boot
+```
+
+```
+mount --mkdir -o rw,nodev,nosuid,relatime /dev/proc/vars /mnt/var
+```
+
+```
+mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vtmp /mnt/var/tmp
+```
+
+```
+mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vlog /mnt/var/log
+```
+
+```
+mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/vaud /mnt/var/log/audit
+```
+
+```
+mount --mkdir -o rw,nodev,nosuid,noexec,relatime /dev/proc/home /mnt/home
+```
+
 # packages
 ## intel
 ```
