@@ -227,3 +227,33 @@ mkinitcpio -P
 ```
 umount -R /mnt
 ```
+
+```
+reboot
+```
+
+# Jika sudah berada dalam fresh install, kita akan install plasma
+
+```
+systemctl enable NetworkManager
+```
+
+```
+systemctl start NetworkManager
+```
+
+```
+nmtui
+```
+> pilih wifi yang ingin di hubungkan
+
+```
+sudo pacman -S plasma sddm pipewire pipewire-alsa pipewire-jack kitty firefox
+```
+
+```
+systemctl enable sddm
+```
+```
+reboot
+```
