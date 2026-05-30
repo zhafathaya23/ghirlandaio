@@ -36,9 +36,10 @@ Step 8: delete semua
 Step 9: ‘new’
 
 Step 10: 
-1G untuk boot type efi system,
+2G untuk boot type efi system,
 4G untuk type linux swap,
-14G type linux filesystem (memo)
+32G type linux filesystem (memo)
+22G untuk home
 
 Step 12: 
 - pencet 'write’
@@ -50,32 +51,32 @@ Step 13:
 
 Step 14: 
 format root ke ext4
-- mkfs.ext4 /dev/sda3 (nvme0n1p7 jadi sda3)
+- mkfs.ext4 /dev/nvme
 - tulis ‘y’
 
 Step 14:
 format partisi tambahan
-- mkfs.ext4 /dev/sda2
+- mkfs.ext4 /dev/nvme0n1p7
 - tulis ‘y’
 
 Step 15:
 aktifkan swap jika cadangan ram penuh
-- mkswap /dev/sda2
-- swapon /dev/sda2
+- mkswap /dev/nvme0n1p6
+- swapon /dev/nvme0n1p6
 
 Step 16: 
 format boot
-- mkfs.fat -F 32 /dev/sda1
+- mkfs.fat -F 32 /dev/nvme0n1p5
 
 Step 17:
 mount partisi
-- mount /dev/sda3 /mnt
+- mount /dev/nvme0n1p7 /mnt
 
 Step 18: 
-- mount --mkdir /dev/sda1 /mnt/boot
+- mount --mkdir /dev/nvme0n1p5 /mnt/boot
 
 Step 19: 
-- pacstrap -K /mnt base-devel linux linux-firmware nvim intel(sesuai laptop masing)-ucode
+- pacstrap -K /mnt base-devel linux linux-firmware nvim AMD(sesuai laptop masing)-ucode
 
 download
 
@@ -98,7 +99,7 @@ sinkronkan dgn hardware clock
 Step 24:
 - locale-gen
 - nvim /etc/locale.conf
-- pencet i
+- pencet i untuk insert
 - LANG=en_US.UTF-8
 - pencet esc
 - :wq
